@@ -1,7 +1,7 @@
 import utilStyles from '/styles/utils.module.css';
-import Date from '/Components/date';
+import Date from '/components/date';
 import Head from 'next/head';
-import Layout from '/Components/layout';
+import Layout from '/components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export async function getStaticProps({ params }) {
@@ -38,4 +38,5 @@ export async function getStaticProps({ params }) {
         </article>
       </Layout>
     );
+    
   }
